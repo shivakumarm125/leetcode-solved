@@ -14,7 +14,6 @@
 
 
 var strStr = function(haystack, needle) {
-    let firstPoint = 0;
     let needleLength = needle.length;
 
     for(let point = 0; point <haystack.length; point++){
