@@ -13,7 +13,7 @@
 // Explanation: "leeto" did not occur in "leetcode", so we return -1.
 
 
-var strStr = function(haystack, needle) {
+var strStr = function(haystack, needle) { 
     let needleLength = needle.length;
 
     for(let point = 0; point <haystack.length; point++){
